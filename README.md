@@ -1,6 +1,6 @@
 # Matrix_Flatten
  
-* Flattening formula: oneD[i + FirstDimension * (j + SecondDimension* k)] = threeD[i][j][k]
+* Flattening formula: oneD(i * secondDim * thirdDim) + (j * thirdDim) + k = threeD[i][j][k]
 * i is the variable used to traverse columns (FirstDimension)
 * j is the variable used to traverse rows (SecondDimension)
 * k is the variable used to traverse (ThridDimension)
