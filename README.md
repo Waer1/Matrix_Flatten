@@ -1,5 +1,7 @@
 # Matrix_Flatten
- 
+
+<img src="./imgs/task3.jpg">
+
 * Flattening formula: oneD(i * secondDim * thirdDim) + (j * thirdDim) + k = threeD[i][j][k]
 * i is the variable used to traverse columns (FirstDimension)
 * j is the variable used to traverse rows (SecondDimension)
