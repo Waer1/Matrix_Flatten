@@ -5,7 +5,6 @@ import org.testng.Assert;
 
 import java.util.Random;
 
-
 public class Tester {
     @Test
     public void MatrixFlattenTest() {
@@ -18,7 +17,7 @@ public class Tester {
                 }
             }
         }
-        MatrixFlatten<Integer> matrixFlatten = new MatrixFlatten<>(matrix);
+        MatrixFlatten<Integer> matrixFlatten = new MatrixFlatten<Integer>(matrix);
         Assert.assertEquals(matrix[2][4][3], matrixFlatten.get(2, 4, 3));
         Assert.assertEquals(matrix[1][4][2], matrixFlatten.get(1, 4, 2));
         Assert.assertEquals(matrix[8][2][3], matrixFlatten.get(8 ,2, 3));

@@ -24,3 +24,6 @@ the column and then moves to the next column and repeats the process till the en
  
  # Output
  1D vector
+
+ # Testing
+ Test Done Dynamically using Assert in java
